@@ -1,13 +1,5 @@
-def sumaPares():
-    #Dada una lista de enteros, devolvé la suma de todos los números pares.
-    #numeros = [10, 3, 4, 7, 2, 8]
-    #Resultado esperado: 24 (10+4+2+8)
-    numeros = [10, 3, 4, 7, 2, 8]
-    acc = 0
-    for num in  numeros:
-        if(num % 2 == 0):
-            acc += num
-    return acc
+def main():
+    print(len("hola"))
 
 def eliminarDuplicados():
     # Dada una lista, devolvé una nueva lista sin elementos duplicados, pero manteniendo el orden.
